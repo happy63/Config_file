@@ -1,8 +1,9 @@
 {
   "broadcast_interval": 60000,
-  "retry_time": 10000,
+  "retry_time": 12000,
   "sensor_check_time": 20000,
-  "main_loop_delay": 200,
+  "interval_after_alert": 60000,
+  "max_broadcast_retries": 4,
   "temp_threshold_high": 15.0,
   "temp_threshold_medium": 10.0,
   "temp_hysteresis": 2.0,
